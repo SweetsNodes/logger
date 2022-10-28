@@ -1,0 +1,15 @@
+{
+  "name": "@sweetsnodes/logger",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "description": "date with time color logger for Nodejs.",
+  "version": "1.0.1",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "chalk-animation": "^2.0.3",
+    "tslib": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.1"
+  }
+}
