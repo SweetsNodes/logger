@@ -1,6 +1,6 @@
 {
   "name": "@sweetsnodes/logger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "date with time color logger for NodeJS",
   "main": "lib/index.js",
   "directories": {
