@@ -1,6 +1,6 @@
 import chalk from "chalk";
 
-class OxygenLogger {
+class SweetsNodesLogger {
   public info(message: string) {
     let date: any = new Date();
     let date_time: string = date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear() + " | " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
@@ -20,6 +20,6 @@ class OxygenLogger {
   }
 }
 
-let logger: OxygenLogger = new OxygenLogger();
+let logger: SweetsNodesLogger = new SweetsNodesLogger();
 
 export default logger;
