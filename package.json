@@ -1,15 +1,89 @@
 {
   "name": "@sweetsnodes/logger",
+  "version": "1.0.2",
+  "description": "date with time color logger for NodeJS",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "description": "date with time color logger for Nodejs.",
-  "version": "1.0.1",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
   "dependencies": {
+    "camelcase-keys": "^7.0.2",
+    "ansi-styles": "^4.3.0",
+    "camelcase": "^6.3.0",
+    "arrify": "^1.0.1",
+    "color-convert": "^2.0.1",
     "chalk": "^4.1.2",
     "chalk-animation": "^2.0.3",
-    "tslib": "^2.4.0"
+    "color-name": "^1.1.4",
+    "error-ex": "^1.3.2",
+    "decamelize": "^5.0.1",
+    "decamelize-keys": "^1.1.0",
+    "escape-string-regexp": "^1.0.5",
+    "gradient-string": "^2.0.2",
+    "hard-rejection": "^2.1.0",
+    "has": "^1.0.3",
+    "function-bind": "^1.1.1",
+    "indent-string": "^5.0.0",
+    "find-up": "^5.0.0",
+    "hosted-git-info": "^4.1.0",
+    "js-tokens": "^4.0.0",
+    "is-core-module": "^2.11.0",
+    "has-flag": "^4.0.0",
+    "is-arrayish": "^0.2.1",
+    "is-plain-obj": "^1.1.0",
+    "json-parse-even-better-errors": "^2.3.1",
+    "locate-path": "^6.0.0",
+    "kind-of": "^6.0.3",
+    "lines-and-columns": "^1.2.4",
+    "map-obj": "^1.0.1",
+    "meow": "^10.1.5",
+    "lru-cache": "^6.0.0",
+    "min-indent": "^1.0.1",
+    "normalize-package-data": "^3.0.3",
+    "minimist-options": "^4.1.0",
+    "p-locate": "^5.0.0",
+    "p-limit": "^3.1.0",
+    "parse-json": "^5.2.0",
+    "read-pkg": "^6.0.0",
+    "path-exists": "^4.0.0",
+    "quick-lru": "^5.1.1",
+    "semver": "^7.3.8",
+    "read-pkg-up": "^8.0.0",
+    "redent": "^4.0.0",
+    "spdx-exceptions": "^2.3.0",
+    "strip-indent": "^4.0.0",
+    "spdx-expression-parse": "^3.0.1",
+    "spdx-correct": "^3.1.1",
+    "supports-color": "^7.2.0",
+    "spdx-license-ids": "^3.0.12",
+    "tinycolor2": "^1.4.2",
+    "trim-newlines": "^4.0.2",
+    "tinygradient": "^1.1.5",
+    "tslib": "^2.4.0",
+    "type-fest": "^1.4.0",
+    "yargs-parser": "^20.2.9",
+    "validate-npm-package-license": "^3.0.4",
+    "yocto-queue": "^0.1.0",
+    "yallist": "^4.0.0"
   },
-  "devDependencies": {
-    "@types/chalk-animation": "^1.6.1"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SweetsNodes/logger.git"
+  },
+  "keywords": [
+    "Logger"
+  ],
+  "author": "Jirayu",
+  "license": "MIT",
+  "types": "./lib/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/SweetsNodes/logger/issues"
+  },
+  "homepage": "https://github.com/SweetsNodes/logger#readme"
 }
